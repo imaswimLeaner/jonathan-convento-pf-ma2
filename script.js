@@ -43,19 +43,17 @@ var catArray = [
 // 8. Loop through catArray and console log each property of each object inside (there will be only 1 object inside).
 // Answer
 for (var i = 0; i < catArray.length; i++) {
-	console.log(catArray[i]);
+	console.log(catArray[i].name);
+	console.log(catArray[i].colour);
+	console.log(catArray[i].age);
 }
 
 // 9. Create a function called logToConsole. The function should accept 1 argument. Decide on the name of the argument and console log its value inside the function.
 // Answer
 function logToConsole(name) {
 	console.log(name);
-	var logYourname = name;
-	return logYourname;
 }
-
-logToConsole('Siri');
 
 // 10. Call the logToConsole function and pass in the value "donkey".
 // Answer
-var personOne = logToConsole('Donkey');
+logToConsole('Donkey');
