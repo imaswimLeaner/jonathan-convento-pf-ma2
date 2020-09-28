@@ -16,36 +16,35 @@ console.log(petArray.length);
 
 // 5. Create an object called catObject with 3 properties: name, colour, age. Add appropriate values (and type of values) for each of these properties.
 // Answer
-var catObject = [
-	{
+var catObject = {
 		name: 'Cesar',
 		colour: 'orange',
-		age: 10,
-	},
-];
+		age: 10
+	}
+
 
 // 6. Console log the value of the third property of catObject.
 // Answer
-for (var i = 0; i < catObject.length; i++) {
-	console.log(catObject[i].age);
-}
+	console.log(catObject.age)
+
 
 // 7. Take the value of catObject (the {} part) and place it inside an array called catArray.
 // Answer
-var catArray = [
+
+(petArray  ['cat'] =
 	{
 		name: 'Tom',
 		colour: 'brown',
 		age: 2,
-	},
-];
+	}
+)
 
 // 8. Loop through catArray and console log each property of each object inside (there will be only 1 object inside).
 // Answer
-for (var i = 0; i < catArray.length; i++) {
-	console.log(catArray[i].name);
-	console.log(catArray[i].colour);
-	console.log(catArray[i].age);
+for (var i = 0; i < petArray.length; i++) {
+	console.log(petArray[i].name);
+	console.log(petArray[i].colour);
+	console.log(petArray[i].age);
 }
 
 // 9. Create a function called logToConsole. The function should accept 1 argument. Decide on the name of the argument and console log its value inside the function.
